@@ -1,0 +1,30 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "Namaste React",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivam30595/namasteReact.git"
+  },
+  "author": "Shivam Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivam30595/namasteReact/issues"
+  },
+  "homepage": "https://github.com/Shivam30595/namasteReact#readme",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

@@ -11,10 +11,11 @@
     <div id= "root">
 
     </div>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Since, we will be importing react from npm so we dont need to import it from cdn anymore -->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
 
-    <script src="./App.js">
+    <script type="module" src="./App.js">
         // const heading = React.createElement("h1", {}, "Hello World from React!"); // creating heading by using react
         
         // const root = ReactDOM.createRoot(document.getElementById("root"));// creating root using React DOM...We used React DOM because root is in DOM
